@@ -1,6 +1,6 @@
 ## Daniel Watson
 
-I build software that runs actual businesses — work-order systems, lead pipelines, and AI agents for the trades. Self-taught, shipping-first: most of what's here started because a real operation needed it and no off-the-shelf tool fit.
+I build software that runs actual businesses work-order systems, lead pipelines, and AI agents for the trades. Self-taught, shipping-first: most of what's here started because a real operation needed it and no off-the-shelf tool fit.
 
 Currently looking for a full-stack or AI engineering role.
 
