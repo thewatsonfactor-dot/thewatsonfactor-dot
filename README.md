@@ -14,7 +14,7 @@ I build with AI coding agents and own the product decisions: what to build, what
 ## Selected work
 
 **[just-grit](link)**: Local business lead engine
-FastAPI service that pulls businesses from Google Places, scores their websites on concrete criteria, and generates specific talking points for a sales call. Outreach is built only from what it finds, so nothing gets invented. Live at justgrit.thewatsonfactor.dev.
+FastAPI service that pulls businesses from Google Places, scores their websites on concrete criteria, and generates specific talking points for a sales call. Outreach is built only from what it finds, so nothing gets invented. Live at justgrit.thewatsonfactor.dev/welcome.
 
 **[novara-lead-scraper](link)**: Lead sourcing pipeline
 Google Places → Hunter enrichment → Claude fit-scoring → outreach queue. Built for a construction firm that was doing this by hand.
