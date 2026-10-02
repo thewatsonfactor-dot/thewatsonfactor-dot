@@ -1,39 +1,35 @@
-## Daniel Watson
+# Daniel Watson
 
-I build software that runs actual businesses work-order systems, lead pipelines, and AI agents for the trades. Self-taught, shipping-first: most of what's here started because a real operation needed it and no off-the-shelf tool fit.
+I build software that runs real businesses: work-order systems, lead pipelines, and AI agents for the trades and clinics. 20 years in sales and construction before this, so most of what's here started because a real operation needed it and nothing off the shelf fit.
 
-Currently looking for a full-stack or AI engineering role.
+I build with AI coding agents and own the product decisions: what to build, what to cut, how it's priced, and whether it actually works in production. Top 1% of Replit Agent users, Replit Level 3 certified.
 
-**Working in:** TypeScript · Next.js 15 · React · Python (FastAPI) · Postgres / Supabase · Node · Tailwind  
-**Building with:** Claude API · ElevenLabs · Whisper · Google Places · Vercel · Playwright
+**Looking for:** product, GTM engineering, or forward-deployed roles where building the thing and talking to customers are the same job.
+
+**Working in:** TypeScript · Next.js · React · Python (FastAPI) · Postgres / Supabase · Node · Tailwind
+**Building with:** Claude API · OpenAI · ElevenLabs · Whisper · Telnyx / Twilio · Google Places · Stripe · Vercel · Playwright
 
 ---
 
-### Selected work
+## Selected work
 
-**[watson-maintain](https://github.com/thewatsonfactor-dot/watson-maintain)** — Multi-tenant facility maintenance platform  
-Next.js 15 + Supabase with row-level security enforcing tenant isolation at the database layer, full work-order lifecycle, and AI-assisted triage. Separate route groups per persona (requester / tech / manager). Accessibility built in — 44px touch targets, reduced-motion support, explicit AI disclosure.
+**[just-grit](link)**: Local business lead engine
+FastAPI service that pulls businesses from Google Places, scores their websites on concrete criteria, and generates specific talking points for a sales call. Outreach is built only from what it finds, so nothing gets invented. Live at justgrit.thewatsonfactor.dev.
 
-**[kitt-voice-agent](https://github.com/thewatsonfactor-dot/kitt-voice-agent)** — Voice-first personal AI agent  
-Wake-word detection (Picovoice) → local Whisper sidecar for STT → Claude for reasoning with an Ollama fallback → ElevenLabs for speech. Runs offline-capable on-device where it can; degrades gracefully when it can't.
-
-**[just-grit](https://github.com/thewatsonfactor-dot/just-grit)** — Local business site scoring engine  
-FastAPI service that pulls businesses from Google Places, scrapes and scores their websites on concrete criteria, and generates the specific talking points for a sales call. Python, async, rate-limit aware.
-
-**[novara-lead-scraper](https://github.com/thewatsonfactor-dot/novara-lead-scraper)** — Lead sourcing pipeline  
+**[novara-lead-scraper](link)**: Lead sourcing pipeline
 Google Places → Hunter enrichment → Claude fit-scoring → outreach queue. Built for a construction firm that was doing this by hand.
 
-**[elecpro](https://github.com/thewatsonfactor-dot/elecpro)** — Electrical contractor job management  
-TypeScript API with JWT auth, Postgres, and Claude-assisted estimate generation from job notes.
+**[kitt-voice-agent](link)**: Voice-first personal AI agent
+Wake word (Picovoice) → local Whisper for speech-to-text → Claude for reasoning with an Ollama fallback → ElevenLabs for speech. Runs offline where it can and degrades gracefully when it can't.
 
-**Not public:** my largest system is a field-service platform running a real home-services operation — TypeScript monorepo across API, web, and mobile, with Postgres, payments, AI voice intake, and Playwright end-to-end coverage. It's private because the business is a live asset. Happy to walk through the architecture and trade-offs in an interview.
+**[watson-maintain](link)**: Multi-tenant facility maintenance platform (built for a partner's business)
+Next.js 15 + Supabase with row-level security for tenant isolation, a full work-order lifecycle, and AI-assisted triage. Separate route groups per role (requester / tech / manager). Accessibility built in.
 
----
+**[elecpro](link)**: Electrical contractor job management
+TypeScript API with JWT auth, Postgres, and Claude-assisted estimates generated from job notes.
 
-### How I work
+## Not public (client and production systems)
 
-I start from the operational problem, not the stack. Most of these projects exist because someone was doing something in a spreadsheet or on paper, and the interesting engineering was in the constraints — multi-tenancy that can't leak, voice latency budgets, API rate limits, people who will stop using the tool if it takes more than three taps.
+**Watson Practice OS**: AI practice management platform running at a multi-location clinic group. It replaces separate phone, scheduling, charting, billing, and records systems: a bilingual AI receptionist, personal injury billing, and a records vault with legal hold and audit logs. 430+ API endpoints and 5,000+ automated tests, with a second AI agent that must reproduce each result before code merges.
 
-I'm self-taught and comfortable saying so. I read source, I write tests for the parts that would actually hurt, and I'd rather ship something small that works than architect something large that doesn't.
-
-**Site:** [thewatsonfactor.dev](https://thewatsonfactor.dev) · **LinkedIn:** [daniel-watson](https://www.linkedin.com/in/daniel-watson-2b38776)
+**HomeRepair.tech**: Field-service platform running a real home-services business. TypeScript monorepo across API, web, and three mobile apps, with Postgres, Stripe memberships, AI voice intake, and Playwright end-to-end coverage.
